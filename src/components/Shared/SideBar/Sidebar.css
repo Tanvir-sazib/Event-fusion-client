@@ -1,0 +1,14 @@
+.sidebar{
+    background-color: rgba(31, 2, 2, 0.699);
+    min-height: 100vh;
+}
+.sidebar a{
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 900px){
+    .sidebar{
+        background-color: rgba(31, 2, 2, 0.699);
+        min-height: 200px;
+    }
+}

@@ -1,0 +1,7 @@
+.testimonials-container{
+    min-height: 30rem;
+    background-image: url('../../../image/quote.png');
+    background-repeat: no-repeat;
+   background-position: top right;
+   object-fit:contain;
+}

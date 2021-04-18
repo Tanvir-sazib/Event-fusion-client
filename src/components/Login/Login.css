@@ -1,0 +1,17 @@
+.login-box{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.login-container{
+
+padding: 5rem;
+}
+.login-img{
+    width: 15rem;
+}
+

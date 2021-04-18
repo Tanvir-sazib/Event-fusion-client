@@ -1,0 +1,25 @@
+.mid-banner{
+position: relative;
+    min-height: 5rem;
+}
+.banner-over{
+    min-width: 100%;
+    min-height: 100%;
+  
+    top: 0;
+    
+}
+.mid-banner-img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+.banner-img{
+    border-radius: 15px;
+    opacity: 0.8;
+}
+.bg-happy{
+    background:red;
+    border-radius: 15px;
+    padding:.5rem 1.5rem
+}

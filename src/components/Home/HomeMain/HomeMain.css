@@ -1,0 +1,35 @@
+.nav-bar-home{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.slider{
+    opacity: 0.5;
+    z-index: -10;
+}
+.home-text{
+    background: rgba(14, 14, 14, 0.438);
+    position: absolute;
+}
+.image{
+    /* opacity: 0.8; */
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+.home-text h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 10rem;
+    color: rgb(206, 206, 206);
+    padding-bottom: .5rem;
+}
+.home-text p{
+    color: rgb(201, 201, 201);
+}
+
+@media (max-width: 700px){
+    .home-text h1{
+        font-size: 5rem;
+    }
+}

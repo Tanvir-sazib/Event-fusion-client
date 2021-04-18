@@ -1,12 +1,37 @@
 .App {
   text-align: center;
 }
-
+p{
+  font-size: 19px;
+}
+.text-brand{
+  color:rgba(124, 48, 48, 0.952);
+  font-weight: 700;
+  text-transform: uppercase;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.text-sub{
+  color: rgb(58, 58, 58);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn-brand{
+  background: transparent;
+  color: black;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 18px;
+  border: 1px solid rgba(124, 48, 48, 0.952);
+  transition: 0.3s;
+}
+.btn-brand:hover{
+  background:rgba(124, 48, 48, 0.952);
+  border: 1px solid rgba(124, 48, 48, 0.952);
+  color:white
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
